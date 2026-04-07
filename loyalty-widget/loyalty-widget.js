@@ -46,10 +46,10 @@ class LoyaltyWidget extends HTMLElement {
           --color-surface-hover: #f3f4f6;
           --color-border: #e5e7eb;
           --color-border-light: #f0f1f3;
-          --color-primary: #2d6a4f;
-          --color-primary-light: #40916c;
-          --color-primary-bg: #ecfdf5;
-          --color-accent: #1b4332;
+          --color-primary: #a12655;
+          --color-primary-light: #c2306a;
+          --color-primary-bg: #fdf2f7;
+          --color-accent: #7a1d40;
           --color-text: #1f2937;
           --color-text-muted: #6b7280;
           --color-text-dim: #9ca3af;
@@ -73,7 +73,7 @@ class LoyaltyWidget extends HTMLElement {
 
         /* ── Header ── */
         .header {
-          background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
+          background: linear-gradient(135deg, #7a1d40 0%, #a12655 50%, #c2306a 100%);
           padding: 28px 24px 32px;
           text-align: center;
           position: relative;
@@ -172,7 +172,7 @@ class LoyaltyWidget extends HTMLElement {
           width: 48px;
           height: 48px;
           border-radius: 50%;
-          background: linear-gradient(135deg, #2d6a4f, #52b788);
+          background: linear-gradient(135deg, #a12655, #d44a7a);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -180,7 +180,7 @@ class LoyaltyWidget extends HTMLElement {
           font-weight: 700;
           color: #fff;
           flex-shrink: 0;
-          border: 2px solid #d1fae5;
+          border: 2px solid #fce7f0;
         }
 
         .customer-info {
@@ -249,7 +249,7 @@ class LoyaltyWidget extends HTMLElement {
 
         .progress-bar-fill {
           height: 100%;
-          background: linear-gradient(90deg, #2d6a4f, #52b788);
+          background: linear-gradient(90deg, #a12655, #d44a7a);
           border-radius: 999px;
           transition: width 1s ease;
         }
@@ -308,12 +308,12 @@ class LoyaltyWidget extends HTMLElement {
 
         .tier-step-dot.active {
           background: var(--color-primary-bg);
-          box-shadow: 0 0 0 3px rgba(45,106,79,0.12);
+          box-shadow: 0 0 0 3px rgba(161,38,85,0.12);
         }
 
         .tier-step-dot.current {
-          background: #d1fae5;
-          box-shadow: 0 0 0 3px rgba(45,106,79,0.18);
+          background: #fce7f0;
+          box-shadow: 0 0 0 3px rgba(161,38,85,0.18);
         }
 
         .tier-step-label {
@@ -466,7 +466,7 @@ class LoyaltyWidget extends HTMLElement {
         }
 
         .reward-card.available {
-          border-color: rgba(45,106,79,0.3);
+          border-color: rgba(161,38,85,0.3);
         }
 
         .reward-icon {
