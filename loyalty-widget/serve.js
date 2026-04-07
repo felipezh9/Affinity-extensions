@@ -27,7 +27,7 @@ http.createServer((req, res) => {
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #0a0b0e;
+      background: #f3f4f6;
       padding: 24px;
     }
   </style>
